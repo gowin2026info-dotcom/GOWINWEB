@@ -64,6 +64,14 @@ export default function ContactUs() {
               <div className="contact-detail-item mt-1">
                 <MapPin size={24} style={{ color: 'var(--secondary)' }} />
                 <div>
+                  <h4>Service &amp; Delivery Coverage</h4>
+                  <p>Daily B2B distribution and door-to-door bulk shipping serving Kolkata, Howrah, Hooghly district, and all major commercial states across India.</p>
+                </div>
+              </div>
+
+              <div className="contact-detail-item mt-1">
+                <MapPin size={24} style={{ color: 'var(--secondary)' }} />
+                <div>
                   <h4>Factory</h4>
                   <p>Vasai, Mumbai, Maharashtra</p>
                 </div>

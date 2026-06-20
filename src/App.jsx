@@ -25,9 +25,9 @@ function ScrollToTop() {
     window.scrollTo(0, 0);
 
     // Dynamic SEO mapping
-    let title = "Go Win | Premium Polypropylene Stationery & Packaging Manufacturer";
-    let desc = "Go Win manufactures top quality, 100% recyclable PP office folders, ring binders, files, and customized packaging solutions since 2026.";
-    let keywords = "polypropylene files, PP folder manufacturer, office stationery supplier, customized packaging boxes, medical report files, ring binders India, eco-friendly office supplies, Hanuman Agencies, Go Win";
+    let title = "Go Win | Best Stationery Manufacturer in Kolkata, Howrah & Hooghly";
+    let desc = "Go Win manufactures top quality, 100% recyclable PP office folders, ring binders, files, and customized packaging solutions in Kolkata, Howrah, Hooghly, and across India.";
+    let keywords = "stationery manufacturer kolkata, stationery supplier howrah, office files hooghly, polypropylene files, PP folder manufacturer, office stationery supplier, customized packaging boxes, medical report files, ring binders India, eco-friendly office supplies, Hanuman Agencies, Go Win";
     let schema = null;
 
     // Define base schemas
@@ -43,15 +43,15 @@ function ScrollToTop() {
         "telephone": "+91-33-47475728",
         "contactType": "sales",
         "email": "sales@gowinweb.com",
-        "areaServed": "IN",
+        "areaServed": ["Kolkata", "Howrah", "Hooghly", "West Bengal", "India"],
         "availableLanguage": "en"
       }
     };
 
     if (pathname === "/") {
-      title = "Go Win | Premium Polypropylene Stationery, Files & Custom Packaging";
-      desc = "Professional B2B manufacturer of 100% recyclable Polypropylene (PP) office folders, ring binders, display books, medical report files, and custom retail packaging.";
-      keywords = "PP office folders, polypropylene file manufacturer, custom packaging box supplier, ring binder wholesale, medical report files, eco-friendly office supplies, Go Win, Hanuman Agencies";
+      title = "Go Win | Best Stationery Manufacturer in Kolkata, Howrah, Hooghly & India";
+      desc = "Leading B2B manufacturer of 100% recyclable Polypropylene (PP) office folders, ring binders, display books, medical report files, and custom packaging. Servicing Kolkata, Howrah, Hooghly, and pan-India.";
+      keywords = "stationery in kolkata, office stationery supplier howrah, stationery wholesale hooghly, PP office folders, polypropylene file manufacturer, custom packaging box supplier, ring binder wholesale, medical report files, eco-friendly office supplies, Go Win, Hanuman Agencies";
       schema = [
         orgSchema,
         {
@@ -67,9 +67,9 @@ function ScrollToTop() {
         }
       ];
     } else if (pathname === "/about-us") {
-      title = "About Go Win | Quality PP Stationery Manufacturer & Eco-Friendly Philosophy";
-      desc = "Learn about Go Win's history, our quality standard 'Today's Quality is Tomorrow's Market', our state-of-the-art production plant, and our 100% recyclable PP manufacturing process.";
-      keywords = "about Go Win, Hanuman Agencies history, eco-friendly plastic production, PP sheet extrusion manufacturer, quality control stationery";
+      title = "About Go Win | Top PP Stationery Supplier in Kolkata, Howrah & Hooghly";
+      desc = "Learn about Go Win's history, our quality standard 'Today's Quality is Tomorrow's Market', and our eco-friendly PP manufacturing. Proudly serving West Bengal and India.";
+      keywords = "about Go Win, Hanuman Agencies history, stationery manufacturer kolkata, stationery supplier howrah, PP sheet extrusion manufacturer, quality control stationery";
       schema = {
         "@context": "https://schema.org",
         "@type": "AboutPage",
@@ -80,7 +80,7 @@ function ScrollToTop() {
       desc = "Discover why Polypropylene (PP) is the superior, non-toxic, and 100% recyclable material choice for office stationery and packaging over Polyvinyl Chloride (PVC).";
       keywords = "what is polypropylene, PP vs PVC folders, non-toxic plastic stationery, recyclable binder material, acid-free copy-safe folders";
     } else if (pathname === "/p-p-pvc-files") {
-      title = "New Arrivals & Latest Stationery Collections | Go Win";
+      title = "New Arrivals & Latest Stationery Collections | Go Win Kolkata";
       desc = "Explore our latest B2B catalog releases, featuring heavy-duty expanding case organizers, eco pastel ring binders, and fabric border sheet protectors.";
       keywords = "new stationery arrivals, pastel ring binder, expanding file with handle, sheet protector, B2B folder collection";
     } else if (pathname === "/job-openings") {
@@ -92,9 +92,9 @@ function ScrollToTop() {
       desc = "Establish a wholesale or distribution partnership with Go Win. We support custom branding, OEM/ODM manufacturing, and bulk order supply chains.";
       keywords = "distribute office stationery, B2B wholesale partner, OEM folder manufacturer, corporate supplies distribution";
     } else if (pathname === "/contact-us") {
-      title = "Contact Go Win | Sales Offices, Factories & Custom Quotations";
-      desc = "Contact Go Win for sales inquiries, custom manufacturing quotes, and office coordinates in Delhi, Kolkata (Hanuman Agencies), Mumbai, and Howrah.";
-      keywords = "contact Go Win, Hanuman Agencies contact, stationery factory Mumbai, Kolkata head office, bulk order inquiry";
+      title = "Contact Go Win | Stationery Factory, Sales & Custom Quotations";
+      desc = "Contact Go Win for sales inquiries, custom manufacturing quotes, and office coordinates in Kolkata (Hanuman Agencies), Howrah, Hooghly, Delhi, and Mumbai.";
+      keywords = "contact Go Win, Hanuman Agencies contact, stationery factory Howrah, Kolkata head office, bulk order inquiry";
       schema = {
         "@context": "https://schema.org",
         "@type": "LocalBusiness",
@@ -102,6 +102,7 @@ function ScrollToTop() {
         "image": "https://gowinweb.com/assets/logo.jpg",
         "telephone": "+91-33-47475728",
         "email": "info@gowinweb.com",
+        "areaServed": ["Kolkata", "Howrah", "Hooghly", "West Bengal", "India"],
         "address": [
           {
             "@type": "PostalAddress",
