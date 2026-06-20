@@ -93,6 +93,30 @@ export default function Home() {
         </div>
       </section>
 
+      {/* Regional Focus Section */}
+      <section className="regional-seo-section py-4 bg-light">
+        <div className="container text-center">
+          <h2 className="section-title center">Premier Stationery Manufacturer in Kolkata, Howrah &amp; Hooghly</h2>
+          <p className="section-desc">
+            Serving corporate offices, educational hubs, and retail dealers across Kolkata, Howrah, Hooghly, and all of India with custom-branded, eco-friendly files and folders.
+          </p>
+          <div className="grid-3 mt-3">
+            <div className="card location-card text-center" style={{ padding: '2rem', transition: 'transform 0.3s ease' }}>
+              <h3 style={{ color: 'var(--primary)', marginBottom: '1rem' }}>Kolkata</h3>
+              <p style={{ fontSize: '0.95rem', lineHeight: '1.6' }}>Leading supplier of office files, expanding folders, and customized B2B stationery in Burrabazar, Salt Lake, and major commercial districts.</p>
+            </div>
+            <div className="card location-card text-center" style={{ padding: '2rem', transition: 'transform 0.3s ease' }}>
+              <h3 style={{ color: 'var(--primary)', marginBottom: '1rem' }}>Howrah</h3>
+              <p style={{ fontSize: '0.95rem', lineHeight: '1.6' }}>State-of-the-art production and bulk warehousing located inside Salkia's industrial zone, ensuring seamless logistical dispatch across India.</p>
+            </div>
+            <div className="card location-card text-center" style={{ padding: '2rem', transition: 'transform 0.3s ease' }}>
+              <h3 style={{ color: 'var(--primary)', marginBottom: '1rem' }}>Hooghly &amp; Pan-India</h3>
+              <p style={{ fontSize: '0.95rem', lineHeight: '1.6' }}>Fast-track distributor network serving Hooghly district and dispatching bulk consignments daily to Delhi, Mumbai, Bangalore, and Chennai.</p>
+            </div>
+          </div>
+        </div>
+      </section>
+
       {/* About Section */}
       <section className="about-intro-section py-4">
         <div className="container grid-2">

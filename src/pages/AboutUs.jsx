@@ -18,6 +18,9 @@ export default function AboutUs() {
             Go Win has been a pioneer in the design and production of high-quality Polypropylene (PP) office stationery, files, folders, and customized packaging solutions. We have grown from a small manufacturing facility to a leading supplier for domestic and international B2B markets.
           </p>
           <p className="mt-1">
+            With major administrative offices in Kolkata and automated manufacturing hubs in Howrah, we cater extensively to the stationery and packaging requirements of the entire West Bengal region, including Hooghly, while serving corporate houses, government departments, and wholesale dealers across all of India.
+          </p>
+          <p className="mt-1">
             Our brand is synonymous with innovation, durability, and reliability. We consistently invest in modern technology, high-output extrusion machinery, and automatic high-frequency welding to provide stationery that stands the test of time.
           </p>
           <div className="mt-2">
