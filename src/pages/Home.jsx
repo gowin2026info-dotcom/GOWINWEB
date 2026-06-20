@@ -57,9 +57,9 @@ export default function Home() {
         <div className="hero-bg-overlay"></div>
         <div className="container hero-content text-center">
           <span className="hero-subtitle">ESTABLISHED IN 2026</span>
-          <h1>Welcome to Go Win</h1>
+          <h1>Professional Polypropylene Stationery &amp; Packaging Solutions</h1>
           <p className="hero-tagline">
-            Professional Manufacturer of Polypropylene (PP) Office Stationery, Files, Folders, & Customised Packaging Solutions.
+            Go Win is a leading manufacturer of premium Polypropylene (PP) office files, folders, and customized packaging cases.
           </p>
           <div className="hero-ctas">
             <Link to="/clear-holder-clear-sheet-protector" className="btn btn-secondary btn-lg">
